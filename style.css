@@ -1,0 +1,33 @@
+html, body{
+    min-height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px
+}
+
+#tooltip{
+    position: absolute;
+    visibility: visible;
+    height: auto;
+    width: auto;
+    background-color: blanchedalmond;
+    padding: 1%;
+}
+
+.tile:hover{
+    fill: whitesmoke;
+}
